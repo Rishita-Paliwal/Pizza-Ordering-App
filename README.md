@@ -4,6 +4,9 @@ Pizza Eats is a responsive and dynamic web application that displays a collectio
 An interactive web-based Pizza Ordering App built using **HTML**, **CSS**, and **JavaScript**. This project fetches real pizza data from a mock API and displays a visually rich menu, allowing users to explore vegetarian pizzas and add them to their cart.
 
 ---
+## 🚀 Live Site  
+[Click here to view the project](https://Rishita-Paliwal.github.io/Pizza-Ordering-App/)
+
 
 ## 🔥 Features
 
