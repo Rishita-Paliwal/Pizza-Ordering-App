@@ -1,0 +1,119 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff9f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+/* Product Card */
+.card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #e85d04;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #555;
+    min-height: 60px;
+}
+
+.price {
+    font-size: 1.1rem;
+    color: #2b9348;
+    font-weight: bold;
+}
+
+.add-to-cart-btn {
+    margin-top: 10px;
+    background-color: #ff9100;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #e85d04;
+}
+
+/* Basket Section */
+#basket {
+    background: #fff6eb;
+    border-left: 2px solid #ffd6a5;
+    padding: 20px;
+    border-radius: 15px;
+    min-height: 100px;
+}
+
+#basket li {
+    list-style: none;
+    padding: 10px 0;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Payment Button */
+#rzp-button1 {
+    background-color: #2d6cdf;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#rzp-button1:hover {
+    background-color: #244fc1;
+}
+
+/* Responsive Tweak */
+@media (max-width: 768px) {
+    .col-8, .col-4 {
+        width: 100%;
+    }
+
+    .card-img-top {
+        height: 150px;
+    }
+
+    #rzp-button1 {
+        width: 100%;
+    }
+}
